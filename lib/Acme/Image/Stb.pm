@@ -63,10 +63,19 @@ Acme::Image::Stb - Demo of Affix::Build
 =head1 SYNOPSIS
 
     use Acme::Image::Stb;
+    load_and_resize( 'input.png', 'output.png', .25 );
 
 =head1 DESCRIPTION
 
 Acme::Image::Stb is a quick demo to go along with the cookbook recipe found here: https://github.com/sanko/Affix.pm/discussions/93
+
+=head1 FUNCTIONS
+
+There's just one.
+
+=head2 C<load_and_resize( $input, $output, $scale )>
+
+Resizes an input image by a given scale.
 
 =head1 LICENSE
 

@@ -1,4 +1,4 @@
-
+[![Actions Status](https://github.com/sanko/Acme-Image-Stb/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/sanko/Acme-Image-Stb/actions?workflow=test)
 # NAME
 
 Acme::Image::Stb - Demo of Affix::Build
@@ -6,10 +6,19 @@ Acme::Image::Stb - Demo of Affix::Build
 # SYNOPSIS
 
     use Acme::Image::Stb;
+    load_and_resize( 'input.png', 'output.png', .25 );
 
 # DESCRIPTION
 
 Acme::Image::Stb is a quick demo to go along with the cookbook recipe found here: https://github.com/sanko/Affix.pm/discussions/93
+
+# FUNCTIONS
+
+There's just one.
+
+## `load_and_resize( $input, $output, $scale )`
+
+Resizes an input image by a given scale.
 
 # LICENSE
 

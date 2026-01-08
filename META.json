@@ -56,6 +56,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/sanko/Acme-Image-Stb/issues"
+      },
+      "homepage" : "https://github.com/sanko/Acme-Image-Stb",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/sanko/Acme-Image-Stb.git",
+         "web" : "https://github.com/sanko/Acme-Image-Stb"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 0
